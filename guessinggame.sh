@@ -6,8 +6,10 @@ read resp
 correct=$(ls -l | wc -l)-1
 
 while [[ $resp -ne $correct ]]
+
 do
 	if [[ $resp -gt $correct  ]]
+
 	then
 		echo "$resp is too high."
 	else 
