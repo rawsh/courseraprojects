@@ -1,9 +1,9 @@
 #/usr/bin/env bash
 
-all: readme.txt
+all: readme.md
 
-readme.txt: guess.sh
-	touch readme.txt
-	echo "# Guessing Game!" > readme.txt
-	echo $$(date) >> readme.txt
-	wc -l guess.sh >> readme.txt
+readme.md: guess.sh
+	touch readme.md
+	echo "# Guessing Game!" > readme.md
+	echo $$(date) >> readme.md
+	wc -l guess.sh >> readme.md
